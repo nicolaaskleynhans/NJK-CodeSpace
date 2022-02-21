@@ -1,14 +1,42 @@
 body{
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
 }
 
 header {
+  background-color: lightseagreen;
   text-align: center;
 }
 
+#heading{
+  font-size: 115%;
+}
+
 footer {
-  background-color: #343330;
+  background-color: lightseagreen;
   text-align: center;
 }
+
+#sidebar{
+  background-color: lightseagreen;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+  }
+
+h2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+    border-radius: 10px 20px 30px 40px;    
+  }
+
+
+
