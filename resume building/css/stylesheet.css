@@ -1,42 +1,58 @@
-body{
-  font-family: 'Courier New', Courier, monospace, sans-serif;
-  font-size:110%;
-  background-color: #FCF7F8;
-}
-
 header {
   background-color: lightseagreen;
   text-align: center;
+  padding: 0%;
 }
 
 #heading{
   font-size: 115%;
+  padding: auto;
+}
+
+#profilephoto{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 3px solid darkgreen;
+
+}
+
+#sidebar{
+  width: 20%;
+  background-color: lightseagreen;
+  padding: 1rem;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+  padding: 0%;
 }
 
 footer {
   background-color: lightseagreen;
   text-align: center;
+  padding: 1%;
 }
 
-#sidebar{
-  background-color: lightseagreen;
+#contactdetails{
+  text-align: center;
 }
+
+
 
 h2 {
     font-size: 40px;
-    background-color: #ccc;
-    margin: 20px;
-    padding: 40px;
   }
 
-h2 {
-    border-style: dashed;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: red;
-    border-radius: 10px 20px 30px 40px;    
+  .icons{
+    width: 3rem;
+    height: auto;
+    margin: 0.5rem;
+
   }
+
 
 
 
