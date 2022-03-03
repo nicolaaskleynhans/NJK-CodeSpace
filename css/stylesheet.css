@@ -28,11 +28,16 @@ header {
 #sidebar{
   width: 20%;
   background-color: lightseagreen;
+  padding: 2rem;
+}
+
+#content{
   padding: 1rem;
+
 }
 
 body{
-  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-family: sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
   padding: 0%;
